@@ -1,6 +1,6 @@
 # IrrigationControl
 Irrigation control system with sensors GSM connection and control with web interface
-Based on Arduino controller equipped by sensors which control tepreture humidity and water consumption. The system is controlled via a web interface from a local network 
+Based on Arduino controller equipped by sensors which control tepreture humidity and water consumption. The system is controlled via a web interface from a local network and informing via SMS
 
 
 ## Main system parameters:
