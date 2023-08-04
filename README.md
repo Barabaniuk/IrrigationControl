@@ -1,11 +1,22 @@
 # IrrigationControl
 Irrigation control system with sensors GSM connection and control with web interface
-Based on Arduino controller equipped by sensors which control tepreture humidity and water consumption. The system is controlled via a web interface from a local network and informing via SMS
+Based on Arduino controller equipped by sensors which control tepreture humidity and water consumption. 
+Designed to automatically control the watering of domestic plants that require constant maintenance of soil and air moisture.
+To protect the pump from breakdown, there is a flow sensor in the system - if after some time after turning on the pump, the water flow is insufficient, the system turns off the pump to avoid damage when working without water
+The system is equipped with a leakage sensor - if the sensor detects water, the system will turn off the power to prevent further flooding and a possible short circuit
+The system can be controlled via a web interface from a local network (or global network if subnet has own static IP). 
+Supports informing about the current status and events by sending SMS messages through the mobile network:
+* Turn on watering
+* Enable humidification
+* Emergency shutdown due to leakage detection
 
 ## Main functions
-Сontrol of soil moisture using Immersion sensor
-Сontrol of air humidity sensor
-
+* Automatic control of soil moisture 
+* Automatic control of air humidity
+* Leak protection
+* Pump protection against dry running
+* Remote control via web interface
+* Informing about emerging events via SMS
 
 ## Main system parameters:
 * The maximum load switched by the relay
@@ -19,9 +30,6 @@ Based on Arduino controller equipped by sensors which control tepreture humidity
 * Temperature and humidity sensor   DHT22
   - Humidity measurement range:     0-100%
   - humidity measurement accuracy:  ±2% RH
-*	Ethernet module -  ENC28J60
-*	GSM-module -       SIM900 GSM/GPRS;
-
 
 ## Irrigation control web interface
 ![Irrigation control web interface](https://github.com/Brabn/IrrigationControl/blob/main/Web_interface/Irrigation_control.Webinterface.png)
@@ -47,15 +55,27 @@ Main functions of web interface:
   - Set phone number for SMS informing
   - Show device ID and firmware version
 
- 
-
 ## Components
-
+1. Arduino UNO controller
+2. Four-channel relay
+3. Leakage sensor HDS10
+4. Tempreture and humidity sensor DHT22
+5. Soil moisture sensor
+6. Water flow sensor FS300A G3/4"
+7. Ethernet module ENC28J60
+8. GSM module SIM900 GSM/GPRS
 
 ## Wiring diagram
 ![Irrigation control Wiring diagram](https://github.com/Brabn/IrrigationControl/blob/main/Wiring_dagram/Irrigation_control.Wiring_diagramEN.png)
 
 ## Possible further improvements
-
-
-## Photos
+* Several groups of sensors with independent control
+* Activation of various events according to the schedule
+* Sensors for volatile organic compounds (VOCs), CO2 (sometimes combined with VOCs) and a dust sensor with the inclusion of a damp fan in case of exceeding the permissible concentrations can be added to the system
+* More precise setting of admissible limits of controlled values
+* Web interface improvements with graphical indicators, mnemonic diagrams
+* More detailed SMS messages with the current status of all sensors
+* Turn on devices and manage settings by sending SMS
+* Integration with instant messengers (Viber, Telegram) with current status and device management
+* Management of system functions through a mobile application
+* 
