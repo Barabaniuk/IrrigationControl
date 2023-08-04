@@ -25,7 +25,8 @@ Based on Arduino controller equipped by sensors which control tepreture humidity
 
 ## Irrigation control web interface
 ![Irrigation control web interface](https://github.com/Brabn/IrrigationControl/blob/main/Web_interface/Irrigation_control.Webinterface.png)
-[Example of webiterface](https://github.com/Brabn/IrrigationControl/blob/main/Web_interface/Irrigation_control.Webinterface.html)
+[Example of webiterface](https://htmlpreview.github.io/?https://github.com/Brabn/IrrigationControl/blob/main/Web_interface/Irrigation_control.Webinterface.html)
+
 Main functions of web interface:
 * Display of current sensor readings:
   - Air humidity in %
