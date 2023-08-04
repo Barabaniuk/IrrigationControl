@@ -78,4 +78,3 @@ Main functions of web interface:
 * Turn on devices and manage settings by sending SMS
 * Integration with instant messengers (Viber, Telegram) with current status and device management
 * Management of system functions through a mobile application
-* 
