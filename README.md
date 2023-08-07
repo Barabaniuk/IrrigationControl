@@ -6,7 +6,7 @@ To protect the pump from breakdown, there is a flow sensor in the system - if af
 The system is equipped with a leakage sensor - if the sensor detects water, the system will turn off the power to prevent further flooding and a possible short circuit
 The system can be controlled via a web interface from a local network (or global network if subnet has own static IP). 
 Supports informing about the current status and events by sending SMS messages through the mobile network:
-* Turn on watering
+* Turn on irrigation
 * Enable humidification
 * Emergency shutdown due to leakage detection
 
