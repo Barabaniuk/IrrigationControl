@@ -5,10 +5,8 @@ Designed to automatically control the watering of domestic plants that require c
 To protect the pump from breakdown, there is a flow sensor in the system - if after some time after turning on the pump, the water flow is insufficient, the system turns off the pump to avoid damage when working without water
 The system is equipped with a leakage sensor - if the sensor detects water, the system will turn off the power to prevent further flooding and a possible short circuit
 The system can be controlled via a web interface from a local network (or global network if subnet has own static IP). 
-Supports informing about the current status and events by sending SMS messages through the mobile network:
-* Turn on irrigation
-* Enable humidification
-* Emergency shutdown due to leakage detection
+Supports informing about the current status and events by sending SMS messages through the mobile network
+
 
 ## Main functions
 * Automatic control of soil moisture 
@@ -16,7 +14,10 @@ Supports informing about the current status and events by sending SMS messages t
 * Leak protection
 * Pump protection against dry running
 * Remote control via web interface
-* Informing about emerging events via SMS
+* Informing about emerging events via SMS:
+  - Turn on irrigation
+  - Enable humidification
+  - Emergency shutdown due to leakage detection
 
 ## Main system parameters:
 * The maximum load switched by the relay
