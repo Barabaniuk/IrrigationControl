@@ -1,10 +1,15 @@
 # IrrigationControl
-Irrigation control system with sensors GSM connection and control with web interface
+Irrigation control system for  for automatic maintenance of plant climate parameterssensors, control via web interface and remote informing via mobile network
+
 Based on Arduino controller equipped by sensors which control tepreture humidity and water consumption. 
+
 Designed to automatically control the watering of domestic plants that require constant maintenance of soil and air moisture.
+
 To protect the pump from breakdown, there is a flow sensor in the system - if after some time after turning on the pump, the water flow is insufficient, the system turns off the pump to avoid damage when working without water
-The system is equipped with a leakage sensor - if the sensor detects water, the system will turn off the power to prevent further flooding and a possible short circuit
+The system is equipped with a leakage sensor - if the sensor detects water, the system will turn off the power to prevent further flooding and a possible short circuit.
+
 The system can be controlled via a web interface from a local network (or global network if subnet has own static IP). 
+
 Supports informing about the current status and events by sending SMS messages through the mobile network
 
 
