@@ -34,6 +34,7 @@ Supports informing about the current status and events by sending SMS messages t
 
 ## Irrigation control web interface
 ![Irrigation control web interface](https://github.com/Brabn/IrrigationControl/blob/main/Web_interface/Irrigation_control.Webinterface.png)
+
 [Example of webiterface](https://htmlpreview.github.io/?https://github.com/Brabn/IrrigationControl/blob/main/Web_interface/Irrigation_control.Webinterface.html)
 
 Main functions of web interface:
