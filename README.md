@@ -24,7 +24,7 @@ Supports informing about the current status and events by sending SMS messages t
   - Enable humidification
   - Emergency shutdown due to leakage detection
 
-## Main system parameters:
+## Main system parameters
 * The maximum load switched by the relay
   - for alternating current -  10A 250V
   - for direct current -       10A 30V
