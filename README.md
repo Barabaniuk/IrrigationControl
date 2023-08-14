@@ -1,7 +1,7 @@
 # IrrigationControl
-Irrigation control system for  for automatic maintenance of plant climate parameterssensors, control via web interface and remote informing via mobile network
+Irrigation control system for automatic maintenance of plant climate parameters sensors, control via web interface and remote informing via mobile network
 
-Based on Arduino controller equipped by sensors which control tepreture humidity and water consumption. 
+Based on Arduino controller equipped by sensors which control teprature humidity and water consumption. 
 
 Designed to automatically control the watering of domestic plants that require constant maintenance of soil and air moisture.
 
